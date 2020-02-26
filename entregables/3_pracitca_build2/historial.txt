@@ -1,0 +1,90 @@
+   45  19/02/20 17:41:29 echo $PATH
+   46  26/02/20 10:57:23 sudo apt-get install ant
+   47  26/02/20 10:57:43 sudo apt-get install maven
+   48  26/02/20 10:58:02 sudo apt-get install git
+   49  26/02/20 10:58:15 mvn -version
+   50  26/02/20 10:58:22 ant -verison
+   51  26/02/20 10:59:51 ant -version
+   52  26/02/20 10:59:53 clear
+   53  26/02/20 11:00:13 history
+   54  26/02/20 11:05:09 mvn archetype:generate -DgroupId=es.unavarra.gpi2 -DartifactId=simple
+   55  26/02/20 11:06:07 ls
+   56  26/02/20 11:07:27 mvn archetype:generate -DgroupId=es.unavarra.gpi2 -DartifactId=simple-webapp -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   57  26/02/20 11:07:58 cd simple
+   58  26/02/20 11:08:00 ls
+   59  26/02/20 11:08:15 geany build.xml
+   60  26/02/20 11:16:30 cd ..
+   61  26/02/20 11:16:41 mkdir gpi2
+   62  26/02/20 11:16:41 ls
+   63  26/02/20 11:16:43 cd gpi2/
+   64  26/02/20 11:21:34 git inti
+   65  26/02/20 11:21:37 git init
+   66  26/02/20 11:23:23 git remote add origin https://github.com/paula-arias-iza/gpi2.git
+   67  26/02/20 11:23:33 git push -u origin master
+   68  26/02/20 11:24:16 git remote add origin git@github.com:paula-arias-iza/gpi2.git
+   69  26/02/20 11:25:09 ls
+   70  26/02/20 11:25:25 mkdir entregables
+   71  26/02/20 11:25:27 cd entregables/
+   72  26/02/20 11:25:27 ls
+   73  26/02/20 11:25:31 git status
+   74  26/02/20 11:26:07 mkdir 2_practica_build1
+   75  26/02/20 11:26:10 cd 2_practica_build1/
+   76  26/02/20 11:26:39 cd ..
+   77  26/02/20 11:26:49 mkdir 3_pracitca_build2
+   78  26/02/20 11:26:52 cd 3
+   79  26/02/20 11:26:54 cd 3_pracitca_build2/
+   80  26/02/20 11:26:55 ls
+   81  26/02/20 11:27:25 git add 3_practica_build2.odt 
+   82  26/02/20 11:27:43 git commit -m "Anadido documento practica 3"
+   83  26/02/20 11:28:02 git config --global user.email "paula.aria.iza@gmail.com"
+   84  26/02/20 11:28:16 git config --global user.name "Paula"
+   85  26/02/20 11:28:22 git commit -m "Anadido documento practica 3"
+   86  26/02/20 11:28:28 git push origin master
+   87  26/02/20 11:30:51 geany .bash_history
+   88  26/02/20 11:31:57 history 50
+   89  26/02/20 11:33:36 history  > historial.txt
+   90  26/02/20 11:34:47 cd ..
+   91  26/02/20 11:35:19 mkdir p3_ejercicio3_2
+   92  26/02/20 11:35:22 cd p3_ejercicio3_2/
+   93  26/02/20 11:35:24 git init
+   94  26/02/20 11:35:46 geany index.html
+   95  26/02/20 11:36:55 git branch req001
+   96  26/02/20 11:37:08 ls
+   97  26/02/20 11:37:47 git branch req001
+   98  26/02/20 11:38:21 git branch
+   99  26/02/20 11:38:29 git status
+  100  26/02/20 11:39:31 git branch
+  101  26/02/20 11:39:36 git branch req001
+  102  26/02/20 11:39:44 git branch master
+  103  26/02/20 11:39:50 ls
+  104  26/02/20 11:42:34 git checkout req001
+  105  26/02/20 11:45:36 git add index.html 
+  106  26/02/20 11:45:50 git commit "Anadido index.html vacio"
+  107  26/02/20 11:46:04 git commit -m "Anadido index.html vacio"
+  108  26/02/20 11:46:08 git branch
+  109  26/02/20 11:46:14 git branchreq001
+  110  26/02/20 11:46:20 git branch req001
+  111  26/02/20 11:46:24 git branch
+  112  26/02/20 11:46:54 git checkout req001 
+  113  26/02/20 11:46:58 geany index.html 
+  114  26/02/20 11:47:17 git status
+  115  26/02/20 11:47:25 git add index.html 
+  116  26/02/20 11:47:38 git commit -m "Modificado index.html"
+  117  26/02/20 11:47:54 git status
+  118  26/02/20 11:48:33 git checkout master
+  119  26/02/20 11:48:45 git branch hotfix
+  120  26/02/20 11:48:51 git checkout hotfix 
+  121  26/02/20 11:49:00 geany index.html 
+  122  26/02/20 11:50:11 git status
+  123  26/02/20 11:50:16 git add index.html 
+  124  26/02/20 11:50:20 git commit 
+  125  26/02/20 11:50:51 git commit -m "Otra modificacoin en index.html"
+  126  26/02/20 11:51:00 git checkout master
+  127  26/02/20 11:51:04 git merge hotfix 
+  128  26/02/20 11:51:31 git branch -d hotfix 
+  129  26/02/20 11:51:34 git branch
+  130  26/02/20 11:51:57 git checkout req001 
+  131  26/02/20 11:51:58 ls
+  132  26/02/20 11:52:34 history > historial.txt
+  133  26/02/20 11:53:20 history 80 > historial.txt
+  134  26/02/20 11:53:36 history 90 > historial.txt
